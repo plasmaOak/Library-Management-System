@@ -8,24 +8,33 @@ div.wrapper {
 	background-color: ivory;
 }
 
+
 header { 
 	background-image: url(../pictures/sitepics/logo.png);
-	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	background-size: 100px 100px ;
+	background-position: center;
 	position: bottom;
 	height: 158px;
 	width: 100%;
 }
+
 
 header h1 {
 	font-family: 'Allura', cursive;
 	letter-spacing: 4px;
 	font-size: 72px;
 	padding-top: .5em;
-	padding-left: .5em;
+	padding-left: 1.4em;
 }
 
 h2 { 
-       margin: 32px;
+       text-align: center;
+       font-family: 'Allura', cursive;
+}
+
+p.formp { 
+    margin-left: 100px;
 }
 
 nav {
@@ -71,8 +80,42 @@ nav ul button{
   	border: none;
   	cursor: pointer;
 }
-#info{
-       float: left;
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+input[type=radio] {
+    margin: 12px;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
+
+input[type=password]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
+
+input[type=submit] {
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 #login{
@@ -97,7 +140,7 @@ nav ul button{
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 18px;
-	padding-botton: 18px; 
+	padding-bottom: 18px; 
 	border-radius: 3px; 
 	color: ivory;
 	text-align: center;
