@@ -112,11 +112,11 @@ nav ul button{
 }
 
 #login a:hover{
-	background-color: purple;
+	background-color: steelblue;
 }
 
 a:hover{
-	background-color: purple;
+	background-color: steelblue;
 }
 
 img {max-width: 100%}
