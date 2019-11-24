@@ -1,5 +1,5 @@
 body {font-family: arial;
-background-color: maroon;
+background-color: cornflowerblue;
 }
 
 div.wrapper {
@@ -29,7 +29,7 @@ h2 {
 }
 
 nav {
-        background-color: maroon;
+        background-color: cornflowerblue;
 }
 
 nav ul {
@@ -76,7 +76,7 @@ nav ul button{
 }
 
 #login{
-	background-color: maroon;
+	background-color: cornflowerblue;
 }
 
 #login ul{
@@ -92,7 +92,7 @@ nav ul button{
 }
 
 #login a{
-	background-color: maroon;
+	background-color: cornflowerblue;
 	text-decoration: none;  	
 	padding-left: 100px;
 	padding-right: 100px;
@@ -128,7 +128,7 @@ footer h3 {
 	float: right;
 	font-family: arial;
 	font-size: 10px;
-	background-color: maroon;
+	background-color: cornflowerblue;
 	padding: .5em 0 .5em .5em;
 	background-repeat: repeat-x;
 	position: bottom;
